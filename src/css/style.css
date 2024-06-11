@@ -1,0 +1,99 @@
+h1{
+    margin-top: 50px;
+}
+
+.header-container,
+.body-container {
+    display: flex;
+}
+
+.body-container {
+    position: relative;
+}
+
+.header-container .header{
+    fill: #DCDCDE;
+    background-color: #272731;
+    color: #272731;
+}
+
+h4{
+    margin-top: 5px;
+}
+
+.body-container h2 {
+    padding-left: 50px;
+    margin-top: 15px;
+    color: #272731;
+    font-size: 24px;
+}
+
+.body {
+    position: absolute;
+    background-color: #272731;
+    color: #DCDCDE;
+    width: 40px;
+    height: 40px;
+    fill: #272731;
+    padding: 5px;
+    top: calc(50% - 12px);
+    margin: 0 auto;
+}
+
+hr {
+    margin-top: 6px;
+}
+
+.dataInfor {
+    display: flex;
+}
+
+.data {
+    width: 180px;
+}
+
+.competencia {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.competencia .quadrado {
+    margin-left: 450px;
+}
+
+.competencia .quadrado .cubo11:nth-child(1),
+.cubo12:nth-child(2),
+.cubo13:nth-child(3),
+.cubo14:nth-child(4),
+.cubo15:nth-child(5) {
+    fill: #272731;
+}
+
+.competencia .quadrado .cubo21:nth-child(1),
+.cubo22:nth-child(2),
+.cubo23:nth-child(3) {
+    fill: #272731;
+}
+
+.competencia .quadrado .cubo31:nth-child(1),
+.cubo32:nth-child(2),
+.cubo33:nth-child(3) {
+    fill: #272731;
+}
+
+.competencia .quadrado .cubo41:nth-child(1),
+.cubo42:nth-child(2),
+.cubo43:nth-child(3),
+.cubo44:nth-child(4) {
+    fill: #272731;
+}
+
+.competencia .quadrado .cubo51:nth-child(1),
+.cubo52:nth-child(2) {
+    fill: #272731;
+}
+
+.competencia .ultimo{
+    margin-bottom: 100px;
+}

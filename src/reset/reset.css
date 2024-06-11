@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: #59585e;
+    max-width: 700px;
+    margin: 5px;
+}
+
+h1,
+h3,
+h4,
+b {
+    color: #272731;
+}
+
+body {
+    background: #E6E6E8;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ul {
+    list-style: none;
+} */
